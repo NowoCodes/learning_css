@@ -1,65 +1,65 @@
 /*Borders*/
 p.dotted {
-    border-style: dotted;
+  border-style: dotted;
 }
 
 p.dashed {
-    border-style: dashed;
+  border-style: dashed;
 }
 
 p.solid {
-    border-style: solid;
+  border-style: solid;
 }
 
 p.double {
-    border-style: double;
+  border-style: double;
 }
 
 p.groove {
-    border-style: groove;
+  border-style: groove;
 }
 
 p.ridge {
-    border-style: ridge;
+  border-style: ridge;
 }
 
 p.inset {
-    border-style: inset;
+  border-style: inset;
 }
 
 p.outset {
-    border-style: outset;
+  border-style: outset;
 }
 
 p.none {
-    border-style: none;
+  border-style: none;
 }
 
 p.hidden {
-    border-style: hidden;
+  border-style: hidden;
 }
 
 p.mix {
-    border-style: dotted dashed solid double;
+  border-style: dotted dashed solid double;
 }
 
 p.normal {
-    border: 2px solid red;
+  border: 2px solid red;
 }
 
 p.round1 {
-    border: 2px solid red;
-    border-radius: 5px;
+  border: 2px solid red;
+  border-radius: 5px;
 }
 
 p.round2 {
-    border: 2px solid red;
-    border-radius: 8px;
+  border: 2px solid red;
+  border-radius: 8px;
 }
 
 p.round3 {
-    border: 2px solid red;
-    border-radius: 12px;
+  border: 2px solid red;
+  border-radius: 12px;
 }
 
 div.box-model {
