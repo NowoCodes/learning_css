@@ -1,0 +1,51 @@
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+
+ul.demo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.e {
+  list-style-position: outside;
+}
+
+ul.f {
+  list-style-position: inside;
+}
+
+
+ol.g {
+  background: #ff9999;
+  padding: 20px;
+}
+
+ul.g {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ol.g li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul.g li {
+  background: #cce5ff;
+  margin: 5px;
+}
