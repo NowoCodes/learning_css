@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learning CSS</title>
+
+    <style>
+      .div-center {
+        margin: auto;
+        width: 60%;
+        border: 3px solid #73ad21;
+        padding: 10px;
+      }
+
+      .text-center {
+        text-align: center;
+        border: 3px solid green;
+      }
+
+      img.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .right {
+        position: absolute;
+        right: 0px;
+        width: 300px;
+        border: 3px solid #73ad21;
+        padding: 10px;
+      }
+
+      .float-right {
+        float: right;
+        width: 300px;
+        border: 3px solid #73ad21;
+        padding: 10px;
+      }
+
+      .center-padding {
+        padding: 70px 0;
+        border: 3px solid green;
+      }
+
+      .center-flexbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        border: 3px solid green;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Center Align Elements</h2>
+    <p>To horizontally center a block element (like div), use margin: auto;</p>
+
+    <div class="div-center">
+      <p>Hello World!</p>
+    </div>
+
+    <h2>Center Text</h2>
+
+    <div class="text-center">
+      <p>This text is centered.</p>
+    </div>
+
+    <h2>Center an Image</h2>
+    <p>
+      To center an image, set left and right margin to auto, and make it into a
+      block element.
+    </p>
+
+    <img
+      class="center"
+      src="images/pineapple.jpg"
+      alt="Paris"
+      style="width: 40%"
+    />
+
+    <h2>Right align with the position property</h2>
+
+    <p>An example of how to right align elements with the position property:</p>
+
+    <div class="right">
+      <p>
+        In my younger and more vulnerable years my father gave me some advice
+        that I've been turning over in my mind ever since.
+      </p>
+    </div>
+
+    <h2>Right align with the float property</h2>
+
+    <p>An example of how to right align elements with the float property:</p>
+
+    <div class="float-right">
+      <p>
+        In my younger and more vulnerable years my father gave me some advice
+        that I've been turning over in my mind ever since.
+      </p>
+    </div>
+
+    <h2>Center vertically with padding</h2>
+
+    <p>
+      In this example, we use the padding property to center the div element
+      vertically:
+    </p>
+
+    <div class="center-padding">
+      <p>I am vertically centered.</p>
+    </div>
+
+    <h2>Flexbox Centering</h2>
+
+    <p>
+      A container with both the justify-content and the align-items properties
+      set to <em>center</em> will align the item(s) in the center (in both
+      axis).
+    </p>
+
+    <div class="center-flexbox">
+      <p>I am vertically and horizontally centered.</p>
+    </div>
+  </body>
+</html>
